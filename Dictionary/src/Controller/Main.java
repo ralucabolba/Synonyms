@@ -8,7 +8,6 @@ public class Main
 	{
 		Gui gui = new Gui();
 		Dictionary dictionary = new Dictionary();
-		//dictionary.clear();
 		@SuppressWarnings("unused")
 		Controller controller  = new Controller(gui, dictionary);
 	}

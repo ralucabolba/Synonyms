@@ -315,35 +315,4 @@ public class Dictionary implements DictionaryInterface
 	{
 		return this.dictionary.keySet();
 	}
-	
-	/**
-	 * Clears the dictionary.
-	 * @pre		true
-	 * @post	dictionary.isEmpty()
-	 */
-	/*public void clear()
-	{
-		this.dictionary.clear();
-		
-		assert dictionary.isEmpty();
-	}*/
-	
-	/**
-	 * Returns and generates a string representation of the dictionary
-	 * @pre		dictionary != null
-	 * @post	@nochange
-	 */
-	/*public String toString()
-	{
-		assert dictionary != null;
-		
-		String s = "";
-	
-		for(Map.Entry<String, List<String>> list : dictionary.entrySet())
-		{
-			s += list.getKey() + " = " + list.getValue().toString() + "\n";
-		}
-		
-		return s;
-	}*/
 }

@@ -1,0 +1,14 @@
+picture = visualize, visualise, envision, project, fancy, see, figure
+paper = cover
+abate = decline, ebb, mitigate, reduce, decrease, lessen, moderate, subside, diminish, lower
+abbreviation = abridgment, contraction
+absolute = arbitrary, compulsory, haughty, peremptory, arrogant, controlling, imperative, positive, authoritative, despotic, imperious, supreme, autocratic, dictatorial, irresponsible, tyrannical, coercive, dogmatic, lordly, unconditional, commanding, domineering, overbearing, unequivocal, compulsive, exacting
+absolete = acquit, exculpate, forgive, pardon, clear, exempt, free, release, discharge, exonerate, liberate
+education = breeding, discipline, learning, study, cultivation, information, nurture, teaching, culture, instruction, reading, training, development, knowledge, schooling, tuition
+egotism = conceit, egoism, vanity
+emblem = attribute, figure, image, sign, symbol, token, type
+duplicate = copy, facsimile, likeness, reproduction, counterpart, imitation, replica, transcript
+danger =  hazard, insecurity, jeopardy, peril, risk
+consequence = consequent, end, issue, outgrowth, sequel, effect, event, outcome, result, upshot
+congratulate = felicitate
+barbarous = atrocious, brutal, merciless, uncivilized, barbarian, cruel, rude, uncouth, barbaric, inhuman, savage, untamed

@@ -84,7 +84,7 @@ public class Controller
 			} 
 			catch (Exception e) 
 			{
-				JOptionPane.showMessageDialog(null, "The word could not be added " + e.getMessage());
+				JOptionPane.showMessageDialog(null, "The word could not be added. " + e.getMessage());
 			}
 		}
 	}
@@ -183,11 +183,11 @@ public class Controller
 		{
 			if(dictionary.isConsistent())
 			{
-				JOptionPane.showMessageDialog(null, "The dictionary is consistent");
+				JOptionPane.showMessageDialog(null, "The dictionary is consistent.");
 			}
 			else
 			{
-				JOptionPane.showMessageDialog(null, "The dictionary is not consistent");
+				JOptionPane.showMessageDialog(null, "The dictionary is not consistent.");
 			}
 		}
 		

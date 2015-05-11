@@ -33,12 +33,11 @@ public class Dictionary implements DictionaryInterface
 	{
 		assert word != null && synonym != null && word.length() != 0 && synonym.length() != 0 && !isContained(word, synonym);
 		
-		if( !word.matches("^[a-zA-Z]+( +[a-zA-Z]+)*$") )
-		{
+		if (!word.matches("[a-zA-Z]+( +[a-zA-Z]+)*")) {
 			throw new Exception("The word is invalid.");
 		}
 		
-		if( !synonym.matches("^[a-zA-Z]+( +[a-zA-Z]+)*$") )
+		if( !synonym.matches("[a-zA-Z]+( +[a-zA-Z]+)*") )
 		{
 			throw new Exception("The synonym is invalid.");
 		}
@@ -52,23 +51,6 @@ public class Dictionary implements DictionaryInterface
 		if(set != null)
 		{
 			set.add(synonym);
-			
-			/*String i = set.get(0);
-			while( i != null )
-			{
-				List<String> list = dictionary.get(i);
-				if(list != null)
-				{
-					list.add(synonym);
-				}
-				else
-				{
-					list = new ArrayList<String>();
-					list.add(synonym);
-					dictionary.put(i, list);
-				}
-				i = set.get(set.indexOf(i) + 1);
-			}*/
 		}
 		else
 		{
@@ -315,4 +297,5 @@ public class Dictionary implements DictionaryInterface
 	{
 		return this.dictionary.keySet();
 	}
+	
 }
